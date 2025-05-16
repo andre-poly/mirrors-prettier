@@ -1,6 +1,17 @@
-# archived
+# ~~archived~~
 
-prettier made some changes that breaks plugins entirely
+~~prettier made some changes that breaks plugins entirely~~
+
+Forked from [archived repository](https://github.com/pre-commit/mirrors-prettier).
+
+Requires manual steps for adding a new Prettier version:
+
+1. Edit `.pre-commit-hooks.yaml` to change Prettier version specified in `additional_dependencies`
+2. Commit and tag with the matching version number
+   ```shell
+   git tag -a v0.0.0 -m v0.0.0
+   git push origin --tags
+   ```
 
 ___
 
